@@ -1,0 +1,325 @@
+{
+  "layerInfos": [
+    {
+      "name": "Lampu Merah",
+      "id": "18fc831dec9-layer-2",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Traffic_Light/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "fcode",
+            "alias": "fcode",
+            "show": true
+          },
+          {
+            "name": "metadata",
+            "alias": "metadata",
+            "show": true
+          },
+          {
+            "name": "namobj",
+            "alias": "namobj",
+            "show": true
+          },
+          {
+            "name": "remark",
+            "alias": "remark",
+            "show": true
+          },
+          {
+            "name": "srs_id",
+            "alias": "srs_id",
+            "show": true
+          },
+          {
+            "name": "thndta",
+            "alias": "thndta",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "namobj",
+      "isDescending": false
+    },
+    {
+      "name": "Jalan",
+      "id": "18fc8333106-layer-3",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Jalan_Median/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "fcode",
+            "alias": "fcode",
+            "show": true
+          },
+          {
+            "name": "metadata",
+            "alias": "metadata",
+            "show": true
+          },
+          {
+            "name": "namobj",
+            "alias": "namobj",
+            "show": true
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          },
+          {
+            "name": "remark",
+            "alias": "remark",
+            "show": true
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "shape_leng",
+            "alias": "shape_leng",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "srs_id",
+            "alias": "srs_id",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "namobj",
+      "isDescending": false
+    },
+    {
+      "name": "Administrasi Kecamatan",
+      "id": "18fc834366c-layer-4",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Administrasi_Mojokerto/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "fcode",
+            "alias": "fcode",
+            "show": true
+          },
+          {
+            "name": "kdbbps",
+            "alias": "kdbbps",
+            "show": true
+          },
+          {
+            "name": "kdcbps",
+            "alias": "kdcbps",
+            "show": true
+          },
+          {
+            "name": "kdcpum",
+            "alias": "kdcpum",
+            "show": true
+          },
+          {
+            "name": "kdebps",
+            "alias": "kdebps",
+            "show": true
+          },
+          {
+            "name": "kdepum",
+            "alias": "kdepum",
+            "show": true
+          },
+          {
+            "name": "kdpbps",
+            "alias": "kdpbps",
+            "show": true
+          },
+          {
+            "name": "kdpkab",
+            "alias": "kdpkab",
+            "show": true
+          },
+          {
+            "name": "kdppum",
+            "alias": "kdppum",
+            "show": true
+          },
+          {
+            "name": "luaswh",
+            "alias": "luaswh",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "metadata",
+            "alias": "metadata",
+            "show": true
+          },
+          {
+            "name": "namobj",
+            "alias": "namobj",
+            "show": true
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          },
+          {
+            "name": "remark",
+            "alias": "remark",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "shape_area",
+            "alias": "shape_area",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "shape_leng",
+            "alias": "shape_leng",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "srs_id",
+            "alias": "srs_id",
+            "show": true
+          },
+          {
+            "name": "tipadm",
+            "alias": "tipadm",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          },
+          {
+            "name": "wadmkc",
+            "alias": "wadmkc",
+            "show": true
+          },
+          {
+            "name": "wadmkd",
+            "alias": "wadmkd",
+            "show": true
+          },
+          {
+            "name": "wadmkk",
+            "alias": "wadmkk",
+            "show": true
+          },
+          {
+            "name": "wadmpr",
+            "alias": "wadmpr",
+            "show": true
+          },
+          {
+            "name": "wiadkc",
+            "alias": "wiadkc",
+            "show": true
+          },
+          {
+            "name": "wiadkd_1",
+            "alias": "wiadkd_1",
+            "show": true
+          },
+          {
+            "name": "wiadkk",
+            "alias": "wiadkk",
+            "show": true
+          },
+          {
+            "name": "wiadpr",
+            "alias": "wiadpr",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "wadmkc",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}
